@@ -20,7 +20,10 @@
                                     alt="Logo"
                                 />
                                 <p>
-                                    Excellence decisively elevates user experience in both web and mobile development, ensuring optimal performance and seamless interaction.
+                                    Excellence decisively elevates user
+                                    experience in both web and mobile
+                                    development, ensuring optimal performance
+                                    and seamless interaction.
                                 </p>
                                 <ul class="footer-social">
                                     <li>
@@ -51,18 +54,18 @@
                                 <h4 class="widget-title">Our Services</h4>
                                 <ul>
                                     <li>
-                                        <a href="/project/1"
+                                        <a href="services-details.html"
                                             >Mobile App Development</a
                                         >
                                     </li>
                                     <li>
-                                        <a href="/project/1"
+                                        <a href="services-details.html"
                                             >Company Profile</a
                                         >
                                     </li>
                                     <li>
-                                        <a href="/project/1"
-                                            > Custom website</a
+                                        <a href="services-details.html">
+                                            Custom website</a
                                         >
                                     </li>
                                 </ul>
@@ -90,7 +93,7 @@
                                         <div class="content">
                                             <strong>Phone:</strong>
                                             <a href="tel:2151234567"
-                                                >0819-3045-6886</a
+                                                >+123 34598768</a
                                             >
                                         </div>
                                     </li>

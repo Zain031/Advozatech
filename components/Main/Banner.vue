@@ -30,7 +30,7 @@
                                     <div class="button">
                                         <a
                                             class="btn btn-md btn-theme animation"
-                                            href="project.html"
+                                            href="/project"
                                             >go to our products</a
                                         >
                                     </div>
@@ -51,15 +51,15 @@
                 </div>
                 <div
                     class="shape-bottom-center"
-                    style="background-image: url(assets/img/shape/5.png)"
+                    style="background-image: url(img/shape/5.png)"
                 ></div>
                 <div
                     class="shape-top-right"
-                    style="background-image: url(assets/img/shape/6.png)"
+                    style="background-image: url(img/shape/6.png)"
                 ></div>
                 <div
                     class="shape-left-top"
-                    style="background-image: url(assets/img/shape/10.png)"
+                    style="background-image: url(img/shape/10.png)"
                 ></div>
             </div>
             <!-- End Single Item -->

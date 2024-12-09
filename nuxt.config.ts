@@ -2,7 +2,6 @@
 export default defineNuxtConfig({
   compatibilityDate: '2024-11-01',
   devtools: { enabled: true },
-
   app:{
     head:{
       title:"Advoza-IT Solution",
@@ -40,19 +39,19 @@ export default defineNuxtConfig({
         { hid: "yandex", name: "yandex", content: "index, follow" },
     ],
       link: [
-        { rel: "stylesheet", href: "css/bootstrap.min.css" },
-        { rel: "stylesheet", href: "css/font-awesome.min.css" },
-        { rel: "stylesheet", href: "css/themify-icons.css" },
-        { rel: "stylesheet", href: "css/elegant-icons.css" },
-        { rel: "stylesheet", href: "css/flaticon-set.css" },
-        { rel: "stylesheet", href: "css/magnific-popup.css" },
-        { rel: "stylesheet", href: "css/swiper-bundle.min.css" },
-        { rel: "stylesheet", href: "css/animate.css" },
-        { rel: "stylesheet", href: "css/validnavs.css" },
-        { rel: "stylesheet", href: "css/helper.css" },
-        { rel: "stylesheet", href: "css/unit-test.css" },
-        { rel: "stylesheet", href: "css/style.css" },
-        { rel: "stylesheet", href: "style.css" },
+        { rel: "stylesheet", href: "/css/bootstrap.min.css" },
+        { rel: "stylesheet", href: "/css/font-awesome.min.css" },
+        { rel: "stylesheet", href: "/css/themify-icons.css" },
+        { rel: "stylesheet", href: "/css/elegant-icons.css" },
+        { rel: "stylesheet", href: "/css/flaticon-set.css" },
+        { rel: "stylesheet", href: "/css/magnific-popup.css" },
+        { rel: "stylesheet", href: "/css/swiper-bundle.min.css" },
+        { rel: "stylesheet", href: "/css/animate.css" },
+        { rel: "stylesheet", href: "/css/validnavs.css" },
+        { rel: "stylesheet", href: "/css/helper.css" },
+        { rel: "stylesheet", href: "/css/unit-test.css" },
+        { rel: "stylesheet", href: "/css/style.css" },
+        { rel: "stylesheet", href: "/style.css" },
         { rel: "stylesheet", href: "https://unpkg.com/aos@2.3.1/dist/aos.css" }
     ],
     }

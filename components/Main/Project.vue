@@ -10,7 +10,7 @@
             <!-- Shape -->
             <div
                 class="shape-right-top"
-                style="background-image: url(assets/img/shape/22.png)"
+                style="background-image: url(img/shape/22.png)"
             ></div>
             <!-- End Shape -->
             <div class="container">
@@ -41,13 +41,13 @@
                                         <div class="content">
                                             <a
                                                 class="button"
-                                                href="project-details.html"
+                                                href="/project/1"
                                                 ><i
                                                     class="fas fa-angle-right"
                                                 ></i
                                             ></a>
                                             <h4>
-                                                <a href="project-details.html"
+                                                <a href="/project/1"
                                                     >Community Engagement</a
                                                 >
                                             </h4>
@@ -71,13 +71,13 @@
                                         <div class="content">
                                             <a
                                                 class="button"
-                                                href="project-details.html"
+                                                href="/project/1"
                                                 ><i
                                                     class="fas fa-angle-right"
                                                 ></i
                                             ></a>
                                             <h4>
-                                                <a href="project-details.html"
+                                                <a href="/project/1"
                                                     >Traffic Management</a
                                                 >
                                             </h4>
@@ -101,13 +101,13 @@
                                         <div class="content">
                                             <a
                                                 class="button"
-                                                href="project-details.html"
+                                                href="/project/1"
                                                 ><i
                                                     class="fas fa-angle-right"
                                                 ></i
                                             ></a>
                                             <h4>
-                                                <a href="project-details.html"
+                                                <a href="/project/1"
                                                     >Income growth</a
                                                 >
                                             </h4>

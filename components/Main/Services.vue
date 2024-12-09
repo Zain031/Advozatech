@@ -5,7 +5,7 @@
 <template>
     <div
             class="services-style-four-area bg-white bottom-less"
-            style="background-image: url(assets/img/shape/43.png); padding-bottom: 80px;padding-top: 80px; margin-top: 50px;"
+            style="background-image: url(img/shape/43.png); padding-bottom: 80px;padding-top: 80px; margin-top: 50px;"
             id="services"
         >
             <div class="container">

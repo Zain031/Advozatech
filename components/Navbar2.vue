@@ -4,10 +4,11 @@
 
 <template>
 <!-- Header ============================================= -->
-    <header>
+<header>
             <!-- Start Navigation -->
             <nav
                 class="navbar mobile-sidenav navbar-sticky navbar-default validnavs navbar-fixed white no-background"
+                style="background-color: #2636b7"
             >
                 <!-- Start Top Search -->
                 <div class="top-search">
@@ -46,7 +47,6 @@
                             <img
                                 src="assets/img/favicon.png"
                                 class="logo logo-display"
-                                style="border-radius: 10px"
                                 alt="Logo"
                             />
                             <img
@@ -60,7 +60,7 @@
 
                     <!-- Collect the nav links, forms, and other content for toggling -->
                     <div class="collapse navbar-collapse" id="navbar-menu">
-                        <img src="assets/img/favicon1.png" alt="Logo" />
+                        <img src="assets/img/favicon.png" alt="Logo" />
                         <button
                             type="button"
                             class="navbar-toggle"
@@ -76,38 +76,19 @@
                             data-out="fadeOutUp"
                         >
                             <li class="dropdown">
-                                <a href="#" data-toggle="dropdown">Home</a>
-
+                                <a href="/">Home</a>
                             </li>
+
                             <li class="dropdown megamenu-fw">
-                                <a
-                                    href="#services"
-                                    >Services</a
-                                >
-
+                                <a href="/project">Products</a>
                             </li>
                             <li class="dropdown">
-                                <a
-                                    href="#products"
-                                    >Products</a
-                                >
-
+                                <a href="/">Pertanyaan</a>
                             </li>
                             <li class="dropdown">
-                                <a
-                                    href="#prices"
-                                    >Prices</a
-                                >
-
+                                <a href="#">Tutorial</a>
                             </li>
-                            <li class="dropdown">
-                                <a
-                                    href="#projects"
-                                    >Projects</a
-                                >
-
-                            </li>
-                            <li><a href="#contact">contact</a></li>
+                            <li><a href="/">contact</a></li>
                         </ul>
                     </div>
                     <!-- /.navbar-collapse -->
@@ -140,12 +121,18 @@
                             <div class="widget">
                                 <div class="logo">
                                     <img
-                                    src="assets/img/favicon.png"
+                                        src="assets/img/favicon.png"
                                         alt="Logo"
                                     />
                                 </div>
                                 <p>
-                                    Navigating the complexities of web and mobile development with precision and purpose, we craft tailored solutions that resonate with your goals. With a focus on seamless user experiences, we adapt to every challenge, ensuring responsive designs and efficient performance.
+                                    Navigating the complexities of web and
+                                    mobile development with precision and
+                                    purpose, we craft tailored solutions that
+                                    resonate with your goals. With a focus on
+                                    seamless user experiences, we adapt to every
+                                    challenge, ensuring responsive designs and
+                                    efficient performance.
                                 </p>
                             </div>
                             <div class="widget address">
@@ -155,7 +142,8 @@
                                             <div class="content">
                                                 <p>Address</p>
                                                 <strong
-                                                    >Jl. Panghulu Djaja Cimahpar - Bogor Utara 16151</strong
+                                                    >Jl. Panghulu Djaja Cimahpar
+                                                    - Bogor Utara 16151</strong
                                                 >
                                             </div>
                                         </li>
@@ -170,9 +158,7 @@
                                         <li>
                                             <div class="content">
                                                 <p>Contact</p>
-                                                <strong
-                                                    >0819-3045-6886</strong
-                                                >
+                                                <strong>0819-3045-6886</strong>
                                             </div>
                                         </li>
                                     </ul>
