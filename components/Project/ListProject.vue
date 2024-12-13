@@ -3,6 +3,7 @@
 </script>
 
 <template>
+    
     <div class="project-area default-padding bottom-less half-bg-gray" style="background-color: #f3f6fd; padding-bottom: 200px;" id="web" >
             <!-- Shape -->
             <div

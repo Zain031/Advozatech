@@ -1,22 +1,35 @@
-<script lang="ts" setup></script>
+<script lang="ts" setup>
+import { ref, onMounted } from "vue";
+import Question from "~/components/Project/Question.vue";
+
+const loading = ref(true);
+
+onMounted(() => {
+    loading.value = false;
+});
+</script>
 
 <template>
+    <!--[if lte IE 9]>
+        <p class="browserupgrade">
+            You are using an <strong>outdated</strong> browser. Please <a
+            href="https://browsehappy.com/">upgrade your browser</a> to improve
+            your experience and security.
+        </p>
+    <![endif]-->
+
+    <!-- Header
+    ============================================= -->
+    <Navbar2 />
+    <!-- End Header -->
+
     <!-- Start Banner Area
     ============================================= -->
-    <Navbar3 />
 
-    <ProjectBanner />
     <!-- End Banner -->
 
-    <ProjectSearch />
+    <MainContact />
 
-    <!-- Start Projects
-============================================= -->
-    <ProjectListProject />
-    <!-- End Projects -->
-
-    <!-- Start Footer
-============================================= -->
     <Footer />
     <!-- End Footer -->
 

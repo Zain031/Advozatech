@@ -6,7 +6,6 @@
         <!-- Start Navigation -->
         <nav
             class="navbar mobile-sidenav navbar-sticky navbar-default validnavs navbar-fixed white no-background"
-            style="background-color: #2636b7"
         >
             <!-- Start Top Search -->
             <div class="top-search">
@@ -83,6 +82,7 @@
                         <li class="dropdown">
                             <a href="/project/question">Questions</a>
                         </li>
+                      
                     </ul>
                 </div>
                 <!-- /.navbar-collapse -->

@@ -56,13 +56,7 @@
 
 
                                 <!-- Single Item -->
-                                <div class="swiper-slide">
-                                    <img
-                                        src="assets/img/logo/resourceLogo/5.png"
-                                        alt="Thumb"
-                                        style="width: 170px;"
-                                    />
-                                </div>
+                         
                                 <!-- End Single Item --><!-- Single Item -->
                                 <div class="swiper-slide">
                                     <img

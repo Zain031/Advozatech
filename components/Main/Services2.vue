@@ -3,7 +3,7 @@
 </script>
 
 <template>
-    <div class="services-style-one-area default-padding-bottom bg-gray" ">
+    <div class="services-style-one-area default-padding-bottom bg-gray" >
             <div class="container">
                 <div class="services-style-one-box">
                     <div class="row">
@@ -25,7 +25,7 @@
                                         aria-selected="false"
                                     >
                                         <span class="icon">
-                                            <i class="flaticon-cloud-2"></i>
+
                                         </span>
                                         <span class="info">
                                             <b>Web Development</b>
@@ -44,9 +44,7 @@
                                         aria-selected="false"
                                     >
                                         <span class="icon">
-                                            <i
-                                                class="flaticon-marketing-agent"
-                                            ></i>
+
                                         </span>
                                         <span class="info">
                                             <b>Mobile Development</b>
@@ -64,9 +62,7 @@
                                         aria-selected="false"
                                     >
                                         <span class="icon">
-                                            <i
-                                                class="flaticon-money-management"
-                                            ></i>
+
                                         </span>
                                         <span class="info">
                                             <b>Responsive Design</b>
@@ -84,7 +80,7 @@
                                         aria-selected="false"
                                     >
                                         <span class="icon">
-                                            <i class="flaticon-startup-6"></i>
+
                                         </span>
                                         <span class="info">
                                             <b>UX/UI Design</b>
@@ -103,7 +99,7 @@
                                         aria-selected="true"
                                     >
                                         <span class="icon">
-                                            <i class="flaticon-research-1"></i>
+
                                         </span>
                                         <span class="info">
                                             <b>Web Optimization</b>
