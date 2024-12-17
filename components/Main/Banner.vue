@@ -13,14 +13,16 @@
                             <div class="info pr-35 pr-xs-0 pr-md-0">
                                 <h4>Empower Your Business</h4>
                                 <h2>Innovative Web & Mobile Solutions</h2>
+                                <h3> <b>Jasa pembuatan web dan mobile aplikasi</b></h3>
+
                                 <p>
                                     Ubah ide anda menjadi solusi digital yang
                                     kuat dengan layanan pengembangan web dan
                                     mobile kami yang canggih. Kami menyediakan
-                                    layanan pembuatan web dan mobile yang
-                                    sesuai dengan kebutuhan bisnis Anda,
-                                    memastikan keunggulan teknologi dan
-                                    pengalaman pengguna yang luar biasa.
+                                    layanan pembuatan web dan mobile yang sesuai
+                                    dengan kebutuhan bisnis Anda, memastikan
+                                    keunggulan teknologi dan pengalaman pengguna
+                                    yang luar biasa.
                                 </p>
                                 <div class="button">
                                     <a
