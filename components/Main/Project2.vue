@@ -15,6 +15,7 @@
                 </div>
             </div>
         </div>
+
         <div class="container">
             <div class="col-lg-12">
                
@@ -24,6 +25,7 @@
                 </div>
             </div>
         </div>
+
         <div class="container container-stage">
             <div class="row">
                 <div class="col-lg-12">
@@ -50,7 +52,8 @@
                                         </div>
                                     </div>
                                 </div>
-                            </div>                            
+                            </div>
+                            
                             <div class="swiper-slide">
                                 <div class="project-style-two">
                                     <div class="thumb">
@@ -70,7 +73,8 @@
                                         </div>
                                     </div>
                                 </div>
-                            </div>                            
+                            </div>
+                            
                             <div class="swiper-slide">
                                 <div class="project-style-two">
                                     <div class="thumb">
@@ -90,7 +94,8 @@
                                         </div>
                                     </div>
                                 </div>
-                            </div>                            
+                            </div>
+                            
                             <div class="swiper-slide">
                                 <div class="project-style-two">
                                     <div class="thumb">
@@ -109,7 +114,8 @@
                                         </div>
                                     </div>
                                 </div>
-                            </div>                            
+                            </div>
+                            
                             <div class="swiper-slide">
                                 <div class="project-style-two">
                                     <div class="thumb">
@@ -129,7 +135,8 @@
                                         </div>
                                     </div>
                                 </div>
-                            </div>                           
+                            </div>
+                           
                             <div class="swiper-slide">
                                 <div class="project-style-two">
                                     <div class="thumb">
@@ -148,7 +155,8 @@
                                         </div>
                                     </div>
                                 </div>
-                            </div>                           
+                            </div>
+                           
                             <div class="swiper-slide">
                                 <div class="project-style-two">
                                     <div class="thumb">
