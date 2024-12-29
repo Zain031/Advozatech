@@ -1,15 +1,13 @@
 <script lang="ts" setup></script>
 
 <template>
-    <div class="project-area default-padding" id="products">
-        <!-- Shape -->
-        <!-- End Shape -->
-        <!-- Shape -->
+    <!-- <div class="project-area default-padding" id="products">
+     
         <div
             class="shape-right-top"
             style="background-image: url(img/shape/22.png)"
         ></div>
-        <!-- End Shape -->
+      
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 offset-lg-2">
@@ -33,7 +31,7 @@
                 <div class="row">
                     <div class="col-lg-12">
                         <div class="row">
-                            <!-- Single Item -->
+                        
                             <div
                                 class="col-lg-4 col-md-6 single-item"
                                 data-aos="zoom-in"
@@ -60,8 +58,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <!-- End Single Item -->
-                            <!-- Single Item -->
+                          
                             <div
                                 class="col-lg-4 col-md-6 single-item"
                                 data-aos="zoom-in"
@@ -88,8 +85,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <!-- End Single Item -->
-                            <!-- Single Item -->
+                       
                             <div
                                 class="col-lg-4 col-md-6 single-item"
                                 data-aos="zoom-in"
@@ -116,7 +112,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <!-- End Single Item -->
+                      
                         </div>
                     </div>
 
@@ -156,5 +152,5 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
 </template>

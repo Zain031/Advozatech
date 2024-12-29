@@ -20,7 +20,7 @@ if(trim($name) == '') {
 } else if(trim($email) == '') {
 	echo '<div class="alert alert-error">You must enter email address.</div>';
 	exit();
-} else if(!isEmail($email)) {
+} else if(!isEmail($email)) { 
 	echo '<div class="alert alert-error">You must enter a valid email address.</div>';
 	exit();
 } else if(trim($phone) == '') {

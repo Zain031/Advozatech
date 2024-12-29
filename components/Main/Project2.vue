@@ -15,24 +15,22 @@
                 </div>
             </div>
         </div>
-
         <div class="container">
             <div class="col-lg-12">
-                <!-- Na.vigation -->
+               
                 <div class="project-two-swiper-nav">
-                    <!-- Pagination -->
+                    
                     <div class="swiper-pagination"></div>
                 </div>
             </div>
         </div>
-
         <div class="container container-stage">
             <div class="row">
                 <div class="col-lg-12">
                     <div class="stage-carousel swiper">
-                        <!-- Additional required wrapper -->
+                       
                         <div class="swiper-wrapper">
-                            <!-- Single Item -->
+                           
                             <div class="swiper-slide">
                                 <div class="project-style-two">
                                     <div class="thumb">
@@ -52,9 +50,7 @@
                                         </div>
                                     </div>
                                 </div>
-                            </div>
-                            <!-- End Single Item -->
-                            <!-- Single Item -->
+                            </div>                            
                             <div class="swiper-slide">
                                 <div class="project-style-two">
                                     <div class="thumb">
@@ -74,9 +70,7 @@
                                         </div>
                                     </div>
                                 </div>
-                            </div>
-                            <!-- End Single Item -->
-                            <!-- Single Item -->
+                            </div>                            
                             <div class="swiper-slide">
                                 <div class="project-style-two">
                                     <div class="thumb">
@@ -96,9 +90,7 @@
                                         </div>
                                     </div>
                                 </div>
-                            </div>
-                            <!-- End Single Item -->
-                            <!-- Single Item -->
+                            </div>                            
                             <div class="swiper-slide">
                                 <div class="project-style-two">
                                     <div class="thumb">
@@ -117,9 +109,7 @@
                                         </div>
                                     </div>
                                 </div>
-                            </div>
-                            <!-- End Single Item -->
-                            <!-- Single Item -->
+                            </div>                            
                             <div class="swiper-slide">
                                 <div class="project-style-two">
                                     <div class="thumb">
@@ -139,9 +129,7 @@
                                         </div>
                                     </div>
                                 </div>
-                            </div>
-                            <!-- End Single Item -->
-                            <!-- Single Item -->
+                            </div>                           
                             <div class="swiper-slide">
                                 <div class="project-style-two">
                                     <div class="thumb">
@@ -160,9 +148,7 @@
                                         </div>
                                     </div>
                                 </div>
-                            </div>
-                            <!-- End Single Item -->
-                            <!-- Single Item -->
+                            </div>                           
                             <div class="swiper-slide">
                                 <div class="project-style-two">
                                     <div class="thumb">
@@ -182,8 +168,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <!-- End Single Item -->
-                                  <!-- Single Item -->
+                           
                             <div class="swiper-slide">
                                 <div class="project-style-two">
                                     <div class="thumb">
@@ -202,8 +187,7 @@
                                         </div>
                                     </div>
                                 </div>
-                            </div>
-                            <!-- End Single Item -->
+                            </div>                           
                         </div>
                     </div>
                 </div>
