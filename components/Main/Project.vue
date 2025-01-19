@@ -1,7 +1,8 @@
-<script lang="ts" setup></script>
+<script lang="ts" setup>
+</script>
 
 <template>
-    <!-- <div class="project-area default-padding" id="products">
+    <div class="project-area default-padding" id="products">
      
         <div
             class="shape-right-top"
@@ -152,5 +153,5 @@
                 </div>
             </div>
         </div>
-    </div> -->
+    </div>
 </template>
