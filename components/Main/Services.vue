@@ -43,7 +43,7 @@
                         </div>
                         <div class="info">
                             <h4>
-                                <a href="services-details.html"
+                                <a href="#"
                                     >Mobile App Development</a
                                 >
                             </h4>
@@ -78,7 +78,7 @@
 
                         <div class="info">
                             <h4>
-                                <a href="services-details.html"
+                                <a href="#"
                                     >Professional Company Profile</a
                                 >
                             </h4>
@@ -112,7 +112,7 @@
                         </div>
                         <div class="info">
                             <h4>
-                                <a href="services-details.html"
+                                <a href="#"
                                     >Custom Website Development</a
                                 >
                             </h4>
@@ -146,7 +146,7 @@
                         </div>
                         <div class="info">
                             <h4>
-                                <a href="services-details.html">UI/UX Design</a>
+                                <a href="#">UI/UX Design</a>
                             </h4>
                             <p>
                                 Enhance user engagement with intuitive and
@@ -180,7 +180,7 @@
                         </div>
                         <div class="info">
                             <h4>
-                                <a href="services-details.html"
+                                <a href="#"
                                     >Web & Mobile Maintenance</a
                                 >
                             </h4>

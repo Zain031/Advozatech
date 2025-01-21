@@ -2,6 +2,10 @@
 export default defineNuxtConfig({
   compatibilityDate: '2024-11-01',
   devtools: { enabled: true },
+  css: ["~/assets/css/style.css"],
+  features: {
+    inlineStyles: false,  
+  },
   app:{
     head:{
       title:"Advoza-IT Solution",
@@ -51,7 +55,6 @@ export default defineNuxtConfig({
         { rel: "stylesheet", href: "/css/helper.css" },
         { rel: "stylesheet", href: "/css/unit-test.css" },
         { rel: "stylesheet", href: "/css/style.css" },
-        { rel: "stylesheet", href: "/style.css" },
         { rel: "stylesheet", href: "https://unpkg.com/aos@2.3.1/dist/aos.css" }
     ],
     }
