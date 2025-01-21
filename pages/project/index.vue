@@ -1,4 +1,13 @@
-<script lang="ts" setup></script>
+<script lang="ts" setup>
+import { ref, onMounted } from "vue";
+const api = useApi()
+const templates = ref([])
+onMounted(async() => {
+    const data = await api.get('/templates')
+    templates.value = data.data
+    console.log(templates.value,"Data TEMPLATE")
+});
+</script>
 
 <template>
     <!-- Start Banner Area
@@ -12,7 +21,7 @@
 
     <!-- Start Projects
 ============================================= -->
-    <ProjectListProject />
+    <ProjectListProject :project="templates" />
     <!-- End Projects -->
 
     <!-- Start Footer

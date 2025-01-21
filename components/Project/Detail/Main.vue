@@ -1,4 +1,10 @@
-<script lang="ts" setup>
+<script lang="js" setup>
+defineProps({
+    project: {
+        type: Array,
+        default: {},
+    }
+})
 
 </script>
 
@@ -11,7 +17,7 @@
                 <div class="project-details-items">
                     <div class="project-thumb">
                         <img
-                            src="assets/img/resourceImage/T4.jpg"
+                            :src="project?.image"
                             alt="Thumb"
                         />
                         <div class="project-info mt-md-50 mt-xs-40">
@@ -27,10 +33,10 @@
                                     "
                                 >
                                     <li style="margin-bottom: 5px">
-                                        Price <span>500.000</span>
+                                        Price <span>{{ project?.price }}</span>
                                     </li>
                                     <li style="margin-bottom: 5px">
-                                        Custom <span>Yes</span>
+                                        Custom <span>{{ project?.custom }}</span>
                                     </li>
                                 </ul>
 
@@ -43,7 +49,7 @@
                                     "
                                 >
                                     <a
-                                        href="index-6.html"
+                                        :href="project?.link"
                                         style="
                                             display: inline-block;
                                             padding: 10px 20px;
@@ -61,7 +67,7 @@
                                         Demo
                                     </a>
                                     <a
-                                        href="https://wa.me/62895333333333"
+                                        href="https://wa.me/6281930456886"
                                         style="
                                             display: inline-block;
                                             padding: 10px 20px;
@@ -85,21 +91,15 @@
                     <div class="top-info">
                         <div class="row">
                             <div class="col-xl-12 left-info">
-                                <h2>Custom Website Template</h2>
+                                <h2>{{ `${project?.title}` }}</h2>
                                 <p>
-                                    Our Custom Website Template offers a
-                                    tailored solution to meet your unique needs.
-                                    Designed for businesses and individuals
-                                    seeking a professional online presence, this
-                                    template is fully customizable and packed
-                                    with features to ensure functionality,
-                                    aesthetics, and performance.
+                                    {{`${project?.description}`}}
                                 </p>
 
                                 <p>
                                     Whether you're launching a new business,
                                     showcasing a portfolio, or promoting a
-                                    product, this custom website template is the
+                                    product, this website template is the
                                     perfect foundation for creating a standout
                                     online presence.
                                 </p>

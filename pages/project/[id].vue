@@ -1,16 +1,30 @@
-<script lang="ts" setup>
+<script lang="js" setup>
+import { ref, onMounted } from "vue";
+const api = useApi();
 const route = useRoute();
-console.log(route.params)
-definePageMeta({
-  layout: false,
-})
+
+const project = ref([]);
+
+onMounted(async() => {
+  // const data = await api.get(`/templates/${route.params.id}`, {
+  //       use_slug: 1
+  //   });
+  const data = await api.get(`/templates/${route.params.id}`, {
+    use_slug: 1,
+  });
+  project.value = data;
+
+  console.log(project.value, "Data Project");
+  console.log(route.params.id, "ID Project");
+});
+
 </script>
 
 <template>
         <!-- Star Project Details Area
          ============================================= -->
-         <Navbar2/>
-        <ProjectDetailMain/>
+        <Navbar2/>
+        <ProjectDetailMain :project="project"/>
         <!-- End Project Details Area -->
 
         <ProjectDetailFooter/>

@@ -19,16 +19,17 @@ export function useApi(){
     }
 
     return {
-        get(url: string, params: object, options?:object) {
+        get(url: string, params?: object, options?:object) {
+            console.log('get',url,params,options);
             return request('GET',url,{params,...options});
         },
         post(url: string, body: object, options?:object){
             return request('POST',url,{body,...options});
         },
-        put(url: string, body: object, params:object, options?:object){
+        put(url: string, body: object, params?:object, options?:object){
             return request('PUT',url,{body,params,...options});
         },
-        delete(url: string, params: object, options?:object){
+        delete(url: string, params?: object, options?:object){
             return request('DELETE',url,{params,...options});
         },
     }
